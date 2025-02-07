@@ -1,549 +1,671 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-  <title>Decemba web</title>
+        <title>Barista Cafe HTML CSS Template</title>
 
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <!-- CSS FILES -->                
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
+            
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href=" css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
-</head>
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
 
-<body>
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container d-block">
-          <div class="main_nav_menu">
-            <div class="fk_width">
-              <div class="custom_menu-btn">
-                <button onclick="openNav()">
-                  <span class="s-1"> </span>
-                  <span class="s-2"> </span>
-                  <span class="s-3"> </span>
-                </button>
-              </div>
-              <div id="myNav" class="overlay">
-                <div class="overlay-content">
-                  <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
-                  <a class="" href="about.html">About </a>
-                  <a class="" href="gallery.html">Gallery </a>
-                  <a class="" href="blog.html">Blog </a>
-                  <a class="" href="testimonial.html">Testimonial </a>
-                </div>
-              </div>
-            </div>
-            <a class="navbar-brand" href="index.html">
-              <span>
-                Picstudio
-              </span>
-            </a>
-            <div class="user_option">
-              <a href="#">
-                login
-              </a>
-              <form class="form-inline ">
-                <button class="btn  nav_search-btn" type="submit"></button>
-              </form>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- end header section -->
+        <link href="css/vegas.min.css" rel="stylesheet">
 
-    <!-- slider section -->
-    <section class=" slider_section position-relative">
-      <div class="container-fluid">
-        <div class="row slider-row">
-          <div class="col-lg-3 offset-lg-1">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="detail-box">
-                    <h1>
-                      Pic <br />
-                      Studio
-                    </h1>
-                    <p>
-                      It is a long established fact that a reader will be distracted by the readable content of a page
-                    </p>
-                    <div>
-                      <a href="#">
-                        Request A Quote
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="detail-box">
-                    <h1>
-                      Pic <br />
-                      Studio
-                    </h1>
-                    <p>
-                      It is a long established fact that a reader will be distracted by the readable content of a page
-                    </p>
-                    <div>
-                      <a href="#">
-                        Request A Quote
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel_control-box">
-                <div class="carousel_btn-container">
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active li_one">01</li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1" class="li_two">02</li>
-                  <li class="ol_design"></li>
-                </ol>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-8 px-0">
-            <div class="img-box">
-              <img src="images/slider-img.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end slider section -->
-  </div>
+        <link href="css/tooplate-barista.css" rel="stylesheet">
+        
+<!--
 
-  <!-- about section -->
+Tooplate 2137 Barista Cafe
 
-  <section class="about_section layout_padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About Studio
-              </h2>
-              <p>
-                It is a long established fact that a reader will be distracted by the readable content of a page
-              </p>
-              <a href="">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="img-box">
-      <div class="play_btn">
-        <a href="#">
-          <img src="images/play.png" alt="" />
-        </a>
-      </div>
-      <img src="images/about-img.png" class="about-img" alt="" />
-    </div>
-  </section>
+https://www.tooplate.com/view/2137-barista-cafe
 
-  <!-- end about section -->
+Bootstrap 5 HTML CSS Template
 
-  <!-- gallery section -->
-  <section class="gallery_section layout_padding-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 ml-auto">
-          <div class="heading_container">
-            <h2>
-              Our Gallery
-            </h2>
-            <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page
-            </p>
-            <a href="">
-              See More
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="gallery_container">
-      <div class="gallery_bg">
-        <img src="images/gallery-bg.png" alt="" />
-      </div>
-      <div class="container">
-        <div class="gallery_box">
-          <div class="box b1">
-            <div class="img-box">
-              <img src="images/gallery-1.jpg" alt="" />
-              <h5>
-                photography
-              </h5>
-            </div>
-          </div>
-          <div class="box b2">
-            <div class="img-box">
-              <img src="images/gallery-2.jpg" alt="" />
-              <h5>
-                photography
-              </h5>
-            </div>
-            <div class="img-box">
-              <img src="images/gallery-3.jpg" alt="" />
-              <h5>
-                photography
-              </h5>
-            </div>
-          </div>
-          <div class="box b3">
-            <div class="img-box">
-              <img src="images/gallery-4.jpg" alt="" />
-              <h5>
-                photography
-              </h5>
-            </div>
-            <div class="img-box">
-              <img src="images/gallery-5.jpg" alt="" />
-              <h5>
-                photography
-              </h5>
-            </div>
-          </div>
-          <div class="box b4">
-            <div class="img-box">
-              <img src="images/gallery-6.jpg" alt="" />
-              <h5>
-                photography
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end gallery section -->
+-->
+    </head>
+    
+    <body>
+                
+            <main>
+                <nav class="navbar navbar-expand-lg">                
+                    <div class="container">
+                        <a class="navbar-brand d-flex align-items-center" href="index.html">
+                            <img src="images/coffee-beans.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
+                            Barista
+                        </a>
+        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+        
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-lg-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_1">Home</a>
+                                </li>
+        
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_2">About</a>
+                                </li>
 
-  <!-- blog section -->
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_3">Our Menu</a>
+                                </li>
 
-  <section class="blog_section layout_padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                Letest Blog
-              </h2>
-              <p>
-                It is a long established fact that a reader will be distracted by the readable content of a page
-              </p>
-              <a href="">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="blog_container">
-      <div class="blog_bg">
-        <img src="images/gallery-bg.png" alt="" />
-      </div>
-      <div class="container">
-        <div class="blog_box">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="box b1">
-                <div class="img-box">
-                  <img src="images/blog1.jpg" alt="" />
-                </div>
-                <div class="blog-detail">
-                  <div class="blog_title">
-                    <h5>
-                      Best photography
-                    </h5>
-                    <div class="blog_post">
-                      <h6>
-                        Post By: Pic studio
-                      </h6>
-                      <h6>
-                        16-01-2020
-                      </h6>
-                    </div>
-                  </div>
-                  <p>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="box b2">
-                <div class="img-box">
-                  <img src="images/blog2.jpg" alt="" />
-                </div>
-                <div class="blog-detail">
-                  <div class="blog_title">
-                    <h5>
-                      Photography
-                    </h5>
-                    <div class="blog_post">
-                      <h6>
-                        Post By: Pic studio
-                      </h6>
-                      <h6>
-                        16-01-2020
-                      </h6>
-                    </div>
-                  </div>
-                  <p>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_4">Reviews</a>
+                                </li>
 
-  <!-- end blog section -->
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                                </li>
+                            </ul>
 
-  <!-- client section -->
-
-  <section class="client_section layout_padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 ml-auto">
-          <div class="heading_container">
-            <h2>
-              What Says Customer
-            </h2>
-            <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="client_container">
-      <div class="client_bg">
-        <img src="images/gallery-bg.png" alt="" />
-      </div>
-      <div class="container">
-        <div class="client_box">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="box b1">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="client_content-box layout_padding">
-                        <div class="img-box">
-                          <img src="images/client.png" alt="" />
+                            <div class="ms-lg-3">
+                                <a class="btn custom-btn custom-border-btn" href="reservation.html">
+                                    Reservation
+                                    <i class="bi-arrow-up-right ms-2"></i>
+                                </a>
+                            </div>
                         </div>
-                        <div class="detail-box">
-                          <h4>
-                            Plio Dorak
-                          </h4>
-                          <p>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
-                          </p>
-                          <img src="images/quote.png" alt="" />
-                        </div>
-                      </div>
                     </div>
-                    <div class="carousel-item">
-                      <div class="client_content-box layout_padding">
-                        <div class="img-box">
-                          <img src="images/client.png" alt="" />
+                </nav>
+
+
+                <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-6 col-12 mx-auto">
+                                <em class="small-text">welcome to Barista.co</em>
+                                
+                                <h1>Cafe Klang</h1>
+
+                                <p class="text-white mb-4 pb-lg-2">
+                                    your <em>favourite</em> coffee daily lives.
+                                </p>
+
+                                <a class="btn custom-btn custom-border-btn smoothscroll me-3" href="#section_2">
+                                    Our Story
+                                </a>
+
+                                <a class="btn custom-btn smoothscroll me-2 mb-2" href="#section_3"><strong>Check Menu</strong></a>
+                            </div>
+
                         </div>
-                        <div class="detail-box">
-                          <h4>
-                            Plio Dorak
-                          </h4>
-                          <p>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
-                          </p>
-                          <img src="images/quote.png" alt="" />
-                        </div>
-                      </div>
                     </div>
-                    <div class="carousel-item">
-                      <div class="client_content-box layout_padding">
-                        <div class="img-box">
-                          <img src="images/client.png" alt="" />
+
+                    <div class="hero-slides"></div>
+                </section>
+
+
+                <section class="about-section section-padding" id="section_2">
+                    <div class="section-overlay"></div>
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-6 col-12">
+                                <div class="ratio ratio-1x1">
+                                    <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                                        <source src="videos/pexels-mike-jones-9046237.mp4" type="video/mp4">
+
+                                        Your browser does not support the video tag.
+                                    </video>
+
+                                    <div class="about-video-info d-flex flex-column">
+                                        <h4 class="mt-auto">We Started Since 2009.</h4>
+
+                                        <h4>Best Cafe in Klang.</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
+                                <em class="text-white">Barista.co</em>
+
+                                <h2 class="text-white mb-3">Cafe KL</h2>
+
+                                <p class="text-white">The café had been in the town for as long as anyone could remember, and it had become a beloved institution among the locals.</p>
+
+                                <p class="text-white">The café was run by a friendly and hospitable couple, Mr. and Mrs. Johnson. Barista Cafe is free Bootstrap 5 HTML layout provided by <a rel="nofollow" href="https://www.tooplate.com" target="_blank">Tooplate</a>.</p>
+
+                                <a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Meet Baristas</a>
+                            </div>
+
                         </div>
-                        <div class="detail-box">
-                          <h4>
-                            Plio Dorak
-                          </h4>
-                          <p>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
-                          </p>
-                          <img src="images/quote.png" alt="" />
-                        </div>
-                      </div>
                     </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="box b2">
-                <div class="camera_img-box">
-                  <img src="images/camera.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                </section>
 
-  <!-- end client section -->
 
-  <!-- info section -->
+                <section class="barista-section section-padding section-bg" id="barista-team">
+                    <div class="container">
+                        <div class="row justify-content-center">
 
-  <section class="info_section ">
-    <div class="info_container layout_padding-top">
-      <div class="container">
-        <div class="heading_container">
-          <h2>
-            Contact Us
-          </h2>
-        </div>
-        <div class="info_main">
-          <div class="row">
-            <div class="col-md-4 col-lg-3">
-              <div class="info_contact ">
-                <a href="#" class="link-box">
-                  <div class="img-box">
-                    <img src="images/location.png" alt="" />
-                  </div>
-                  <div class="detail-box">
-                    <h6>
-                      Location
-                    </h6>
-                  </div>
-                </a>
-                <a href="#" class="link-box">
-                  <div class="img-box">
-                    <img src="images/mail.png" alt="" />
-                  </div>
-                  <div class="detail-box">
-                    <h6>
-                      fideleniyizurugero12@gmail.com
-                    </h6>
-                  </div>
-                </a>
-                <a href="#" class="link-box">
-                  <div class="img-box">
-                    <img src="images/call.png" alt="" />
-                  </div>
-                  <div class="detail-box">
-                    <h6>
-                      Call +250 793450062
-                    </h6>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-2 col-lg-3">
-              <div class="info_link-box">
-                <ul>
-                  <li class=" ">
-                    <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="">
-                    <a class="" href="about.html">About </a>
-                  </li>
-                  <li class="">
-                    <a class="" href="gallery.html">Gallery </a>
-                  </li>
-                  <li class="">
-                    <a class="" href="blog.html">Blog </a>
-                  </li>
-                  <li class="">
-                    <a class="" href="testimonial.html">Testimonial </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 ">
-              <div class="social_box">
-                <a href="#">
-                  <img src="images/facebook.png" alt="" />
-                </a>
-                <a href="#">
-                  <img src="images/twitter.png" alt="" />
-                </a>
-                <a href="#">
-                  <img src="images/linkedin.png" alt="" />
-                </a>
-                <a href="#">
-                  <img src="images/instagram.png" alt="" />
-                </a>
-                <a href="#">
-                  <img src="images/youtube.png" alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                            <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
+                                <em class="text-white">Creative Baristas</em>
 
-  <!-- end info section -->
+                                <h2 class="text-white">Meet People</h2>
+                            </div>
 
-  <!-- footer section -->
-  <footer class="footer_section ">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved. Design by
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
-    </div>
-  </footer>
-  <!-- footer section -->
+                            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                                <div class="team-block-wrap">
+                                    <div class="team-block-info d-flex flex-column">
+                                        <div class="d-flex mt-auto mb-3">
+                                            <h4 class="text-white mb-0">Steve</h4>
 
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script src="js/custom.js"></script>
-</body>
+                                            <p class="badge ms-4"><em>Boss</em></p>
+                                        </div>
 
+                                        <p class="text-white mb-0">your favourite coffee daily lives tempor.</p>
+                                    </div>
+
+                                    <div class="team-block-image-wrap">
+                                        <img src="images/team/portrait-elegant-old-man-wearing-suit.jpg" class="team-block-image img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                                <div class="team-block-wrap">
+                                    <div class="team-block-info d-flex flex-column">
+                                        <div class="d-flex mt-auto mb-3">
+                                            <h4 class="text-white mb-0">Sandra</h4>
+
+                                            <p class="badge ms-4"><em>Manager</em></p>
+                                        </div>
+
+                                        <p class="text-white mb-0">your favourite coffee daily lives.</p>
+                                    </div>
+
+                                    <div class="team-block-image-wrap">
+                                        <img src="images/team/cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg" class="team-block-image img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                                <div class="team-block-wrap">
+                                    <div class="team-block-info d-flex flex-column">
+                                        <div class="d-flex mt-auto mb-3">
+                                            <h4 class="text-white mb-0">Jackson</h4>
+
+                                            <p class="badge ms-4"><em>Senior</em></p>
+                                        </div>
+
+                                        <p class="text-white mb-0">your favourite coffee daily lives.</p>
+                                    </div>
+
+                                    <div class="team-block-image-wrap">
+                                        <img src="images/team/small-business-owner-drinking-coffee.jpg" class="team-block-image img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <div class="team-block-wrap">
+                                    <div class="team-block-info d-flex flex-column">
+                                        <div class="d-flex mt-auto mb-3">
+                                            <h4 class="text-white mb-0">Michelle</h4>
+
+                                            <p class="badge ms-4"><em>Barista</em></p>
+                                        </div>
+
+                                        <p class="text-white mb-0">your favourite coffee daily consectetur.</p>
+                                    </div>
+
+                                    <div class="team-block-image-wrap">
+                                        <img src="images/team/smiley-business-woman-working-cashier.jpg" class="team-block-image img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="menu-section section-padding" id="section_3">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                                <div class="menu-block-wrap">
+                                    <div class="text-center mb-4 pb-lg-2">
+                                        <em class="text-white">Delicious Menu</em>
+                                        <h4 class="text-white">Breakfast</h4>
+                                    </div>
+
+                                    <div class="menu-block">
+                                        <div class="d-flex">
+                                            <h6>Pancakes</h6>
+                                        
+                                            <span class="underline"></span>
+
+                                            <strong class="ms-auto">$12.50</strong>
+                                        </div>
+
+                                        <div class="border-top mt-2 pt-2">
+                                            <small>Fresh brewed coffee and steamed milk</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block my-4">
+                                        <div class="d-flex">
+                                            <h6>
+                                                Toasted Waffle
+                                            </h6>
+                                        
+                                            <span class="underline"></span>
+
+                                            <strong class="text-white ms-auto"><del>$16.50</del></strong>
+
+                                            <strong class="ms-2">$12.00</strong>
+                                        </div>
+
+                                        <div class="border-top mt-2 pt-2">
+                                            <small>Brewed coffee and steamed milk</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block">
+                                        <div class="d-flex">
+                                            <h6>Fried Chips
+                                                <span class="badge ms-3">Recommend</span>
+                                            </h6>
+                                        
+                                            <span class="underline"></span>
+
+                                            <strong class="ms-auto">$15.0</strong>
+                                        </div>
+
+                                        <div class="border-top mt-2 pt-2">
+                                            <small>Rich Milk and Foam</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block my-4">
+                                        <div class="d-flex">
+                                            <h6>Pancakes</h6>
+                                        
+                                            <span class="underline"></span>
+
+                                            <strong class="ms-auto">$12.50</strong>
+                                        </div>
+
+                                        <div class="border-top mt-2 pt-2">
+                                            <small>Fresh brewed coffee and steamed milk</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block">
+                                        <div class="d-flex">
+                                            <h6>Banana Cakes</h6>
+                                        
+                                            <span class="underline"></span>
+
+                                            <strong class="ms-auto">$18.0</strong>
+                                        </div>
+
+                                        <div class="border-top mt-2 pt-2">
+                                            <small>Rich Milk and Foam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="menu-block-wrap">
+                                    <div class="text-center mb-4 pb-lg-2">
+                                        <em class="text-white">Favourite Menu</em>
+                                        <h4 class="text-white">Coffee</h4>
+                                    </div>
+
+                                    <div class="menu-block">
+                                        <div class="d-flex">
+                                            <h6>Latte</h6>
+                                        
+                                            <span class="underline"></span>
+
+                                            <strong class="text-white ms-auto"><del>$12.50</del></strong>
+
+                                            <strong class="ms-2">$7.50</strong>
+                                        </div>
+
+                                        <div class="border-top mt-2 pt-2">
+                                            <small>Fresh brewed coffee and steamed milk</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block my-4">
+                                        <div class="d-flex">
+                                            <h6>
+                                                White Coffee
+                                                <span class="badge ms-3">Recommend</span>
+                                            </h6>
+                                        
+                                            <span class="underline"></span>
+
+                                            <strong class="ms-auto">$5.90</strong>
+                                        </div>
+
+                                        <div class="border-top mt-2 pt-2">
+                                            <small>Brewed coffee and steamed milk</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block">
+                                        <div class="d-flex">
+                                            <h6>Chocolate Milk</h6>
+                                        
+                                            <span class="underline"></span>
+
+                                            <strong class="ms-auto">$5.50</strong>
+                                        </div>
+
+                                        <div class="border-top mt-2 pt-2">
+                                            <small>Rich Milk and Foam</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block my-4">
+                                        <div class="d-flex">
+                                            <h6>Greentea</h6>
+                                        
+                                            <span class="underline"></span>
+
+                                            <strong class="ms-auto">$7.50</strong>
+                                        </div>
+
+                                        <div class="border-top mt-2 pt-2">
+                                            <small>Fresh brewed coffee and steamed milk</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block">
+                                        <div class="d-flex">
+                                            <h6>Dark Chocolate</h6>
+                                        
+                                            <span class="underline"></span>
+
+                                            <strong class="ms-auto">$7.25</strong>
+                                        </div>
+
+                                        <div class="border-top mt-2 pt-2">
+                                            <small>Rich Milk and Foam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="reviews-section section-padding section-bg" id="section_4">
+                    <div class="container">
+                        <div class="row justify-content-center">
+
+                            <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
+                                <em class="text-white">Reviews by Customers</em>
+
+                                <h2 class="text-white">Testimonials</h2>
+                            </div>
+
+                            <div class="timeline">
+                                <div class="timeline-container timeline-container-left">
+                                    <div class="timeline-content">
+                                        <div class="reviews-block">
+                                            <div class="reviews-block-image-wrap d-flex align-items-center">
+                                                <img src="images/reviews/young-woman-with-round-glasses-yellow-sweater.jpg" class="reviews-block-image img-fluid" alt="">
+
+                                                <div class="">
+                                                    <h6 class="text-white mb-0">Sandra</h6>
+                                                    <em class="text-white"> Customers</em>
+                                                </div>
+                                            </div>
+
+                                            <div class="reviews-block-info">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                                <div class="d-flex border-top pt-3 mt-4">
+                                                    <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
+
+                                                    <div class="reviews-group ms-auto">
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-container timeline-container-right">
+                                    <div class="timeline-content">
+                                        <div class="reviews-block">
+                                            <div class="reviews-block-image-wrap d-flex align-items-center">
+                                                <img src="images/reviews/senior-man-white-sweater-eyeglasses.jpg" class="reviews-block-image img-fluid" alt="">
+
+                                                <div class="">
+                                                    <h6 class="text-white mb-0">Don</h6>
+                                                    <em class="text-white"> Customers</em>
+                                                </div>
+                                            </div>
+
+                                            <div class="reviews-block-info">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                                <div class="d-flex border-top pt-3 mt-4">
+                                                    <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
+
+                                                    <div class="reviews-group ms-auto">
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-container timeline-container-left">
+                                    <div class="timeline-content">
+                                        <div class="reviews-block">
+                                            <div class="reviews-block-image-wrap d-flex align-items-center">
+                                                <img src="images/reviews/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg" class="reviews-block-image img-fluid" alt="">
+
+                                                <div class="">
+                                                    <h6 class="text-white mb-0">Olivia</h6>
+                                                    <em class="text-white"> Customers</em>
+                                                </div>
+                                            </div>
+
+                                            <div class="reviews-block-info">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                                <div class="d-flex border-top pt-3 mt-4">
+                                                    <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
+
+                                                    <div class="reviews-group ms-auto">
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star-fill"></i>
+                                                        <i class="bi-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="contact-section section-padding" id="section_5">
+                    <div class="container">
+                        <div class="row">   
+
+                            <div class="col-lg-12 col-12">
+                                <em class="text-white">Say Hello</em>
+                                <h2 class="text-white mb-4 pb-lg-2">Contact</h2>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <form action="#" method="post" class="custom-form contact-form" role="form">
+
+                                <div class="row">
+                                    
+                                    <div class="col-lg-6 col-12">
+                                        <label for="name" class="form-label">Name <sup class="text-danger">*</sup></label>
+
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Jackson" required="">
+                                    </div>
+
+                                    <div class="col-lg-6 col-12">
+                                        <label for="email" class="form-label">Email Address</label>
+
+                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jack@gmail.com" required="">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">How can we help?</label>
+
+                                        <textarea name="message" rows="4" class="form-control" id="message" placeholder="Message" required=""></textarea>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 col-12 mx-auto mt-3">
+                                    <button type="submit" class="form-control">Send Message</button>
+                                </div>
+                            </form>
+                            </div>
+
+                            <div class="col-lg-6 col-12 mx-auto mt-5 mt-lg-0 ps-lg-5">
+                                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5039.668141741662!2d72.81814769288509!3d19.043340656729775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c994f34a7355%3A0x2680d63a6f7e33c2!2sLover%20Point!5e1!3m2!1sen!2sth!4v1692722771770!5m2!1sen!2sth" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <footer class="site-footer">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-4 col-12 me-auto">
+                                <em class="text-white d-block mb-4">Where to find us?</em>
+
+                                <strong class="text-white">
+                                    <i class="bi-geo-alt me-2"></i>
+                                    Bandra West, Mumbai, Maharashtra 400050, India
+                                </strong>
+
+                                <ul class="social-icon mt-4">
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-facebook">
+                                        </a>
+                                    </li>
+        
+                                    <li class="social-icon-item">
+                                        <a href="https://x.com/minthu" target="_new" class="social-icon-link bi-twitter">
+                                        </a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-whatsapp">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
+                                <em class="text-white d-block mb-4">Contact</em>
+
+                                <p class="d-flex mb-1">
+                                    <strong class="me-2">Phone:</strong>
+                                    <a href="tel: 305-240-9671" class="site-footer-link">
+                                        (65) 
+                                        305 2409 671
+                                    </a>
+                                </p>
+
+                                <p class="d-flex">
+                                    <strong class="me-2">Email:</strong>
+
+                                    <a href="mailto:info@yourgmail.com" class="site-footer-link">
+                                        hello@barista.co
+                                    </a>
+                                </p>
+                            </div>
+
+
+                            <div class="col-lg-5 col-12">
+                                <em class="text-white d-block mb-4">Opening Hours.</em>
+
+                                <ul class="opening-hours-list">
+                                    <li class="d-flex">
+                                        Monday - Friday
+                                        <span class="underline"></span>
+
+                                        <strong>9:00 - 18:00</strong>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        Saturday
+                                        <span class="underline"></span>
+
+                                        <strong>11:00 - 16:30</strong>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        Sunday
+                                        <span class="underline"></span>
+
+                                        <strong>Closed</strong>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-8 col-12 mt-4">
+                                <p class="copyright-text mb-0">Copyright © Barista Cafe 2048 
+                                    - Design: <a rel="sponsored" href="https://www.tooplate.com" target="_blank">Tooplate</a></p>
+                            </div>
+                    </div>
+                </footer>
+            </main>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/vegas.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
 </html>
